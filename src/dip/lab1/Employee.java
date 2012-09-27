@@ -7,6 +7,8 @@ package dip.lab1;
  *
  * @author your name goes here
  */
-public class Employee {
+public interface Employee {
+    
+    public abstract double getAnnualWages();
     
 }
